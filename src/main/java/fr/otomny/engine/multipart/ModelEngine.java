@@ -75,7 +75,7 @@ public class ModelEngine {
     meta.displayName(Component.empty());
     meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES, ItemFlag.HIDE_DESTROYS,
                       ItemFlag.HIDE_DYE, ItemFlag.HIDE_ENCHANTS,
-                      ItemFlag.HIDE_PLACED_ON, ItemFlag.HIDE_POTION_EFFECTS,
+                      ItemFlag.HIDE_PLACED_ON, ItemFlag.HIDE_ITEM_SPECIFICS,
                       ItemFlag.HIDE_UNBREAKABLE);
     meta.setCustomModelData(model_id);
     itemStack.setItemMeta(meta);
